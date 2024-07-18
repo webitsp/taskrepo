@@ -1,1 +1,106 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> simple Form </title>
+</head>
+<body>
+<center><fieldset><h3>Student Registration Form Using Table In HTML.</h3></center></fieldset>
+<form name="myform" action="" method="">
+<table cellpadding="5" cellspacing="5" bgcolor="lightblue" align="center">
+  <tr>
+  <td>First Name</td>
+  <td><input type="text" name="fname"  pattern="[A-Za-z]+" size="" required></td>
+  </tr>
+  <tr>
+  <td>Last Name</td>
+  <td><input type="text" name="lname"required></td>
+  </tr>
+  <td>Email</td>
+  <td><input type="email" name="date" size="" required></td>
+  </tr>
+  <tr>
+  <td>Mobile Number</td>
+  <td><input type="tel" name="Number" pattern[0-9]="" required></td>
+  </tr>
+  <tr>
+  <td>Gender</td>
+  <td><input type="radio" name="Gender"size="">Male<input type="radio" name="gender" size="" required>Female</td>
+  </tr>
+  <tr>
+  <td>Date Of Birth(DOB)</td>
+  <!-- <td><input type="date" name="date" size=""></td> -->
+   <td>
+   <select>
+    <option>Day</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+   </select>
+   <select>
+    <option>Month</option>
+    <option>Jan</option>
+    <option>Fab</option>
+    <option>Mar</option>
+   </select>
+   <select>
+    <option>Year</option>
+    <option>1990</option>
+    <option>1991</option>
+    <option>1992</option>
+   </select>
+   </td>
+  </tr>
+  <tr>
+  <td>Address</td>
+  <td><textarea name="Address"></textarea></td>
+  </tr>
+  <tr>
+  <td>City</td>
+  <td><input type="text" name="City" size=""></td>
+  </tr>
+  <tr>
+  <td>Pin Code</td>
+  <td><input type="text" name="numbers" size=""></td>
+  </tr>
+  <tr>
+  <td>State</td>
+  <td><input type="text" name="State" size=""></td>
+  </tr>
+  <tr>
+  <td>Country</td>
+  <td><input type="text" name="Country" size=""></td>
+  </tr>
+  <tr>
+  <td>Hobbies</td>
+  <td><input type="checkbox" name="Hobbies" size="">Drawing<input type="checkbox"name="Hobbies" size="">
+  Singing<input type="checkbox" name="Hobbies" size="">Dancing<input type="checkbox" name="Hobbies" size="">
+Sketching<input type="checkbox" name="Hobbies" size="">Other</td>
+  </tr>
+  <tr>
+  <td>Qualification</td>
+  <td><input type="checkbox" name="Qualification" size="">High School(10th)<br>
+  <input type="checkbox"name="Qualification" size="">Higher School (12th)<br>
+  <input type="checkbox" name="Qualification" size="">Graduation(Bachelors)<br>
+  <input type="checkbox" name="Qualification" size="">Post Graduation (Masters)<br>
+  <input type="checkbox" name="Qualification" size="">Phd</td>
+  </tr>
+  <tr>
+    <td>Course<br>Applied For </td>
+    <td><input type="radio" name="Course" size="">BCA(Bachelor Of Computer Applications)<br>
+    <input type="radio"name="Course" size="">B.Com(Bachelor Of Commerce)<br>
+    <input type="radio" name="Course" size="">B.sc(Bachelor Of Scince)<br>
+    <input type="radio" name="Course" size="">B.A (Bachelor Of Arts)<br>
+    <input type="radio" name="Course" size="">MCA(Master Of computer Applications)<br>
+    <input type="radio" name="Course" size="">M.COM(Master Of Commerce)<br>
+    <input type="radio" name="Course" size="">M.Sc(Master Of Scince)<br>
+    <input type="radio" name="Course" size="">MA(Master Of Arts)</td><br>
+    </tr>
+    <tr>
+      <td><input type="submit" name="submit" size=""></td>
+      <td><input type="reset" name="reset" size=""></td>
+</table>
+</form>
+</body>
+</html>
